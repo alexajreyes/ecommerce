@@ -9,7 +9,7 @@ import accounting from 'accounting'
 import DeleteIcon from '@material-ui/icons/Delete'
 import { IconButton } from '@material-ui/core'
 import { useStateValue } from '../store/StateProvider.store'
-import { actionTypes } from '../hook/reducer.hook'
+import { actionTypes } from '../hook/useReducer.hook'
 
 const useStyles = makeStyles(theme => ({
   root: {

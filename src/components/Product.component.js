@@ -12,7 +12,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import Typography from '@material-ui/core/Typography'
 import { AddShoppingCart } from '@material-ui/icons'
 import accounting from 'accounting'
-import { actionTypes } from '../hook/reducer.hook'
+import { actionTypes } from '../hook/useReducer.hook'
 import { useStateValue } from '../store/StateProvider.store'
 
 const useStyles = makeStyles(theme => ({
